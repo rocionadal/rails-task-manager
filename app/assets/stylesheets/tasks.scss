@@ -2,10 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 li {
   text-decoration: none;
   list-style: none;
@@ -30,10 +26,10 @@ a:hover {
 }
 
 .details {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   padding: 16px;
   border-radius: 4px;
-  box-shadow: 2px 2px 4px #d3d3d3;
+  box-shadow: 1px 1px 3px #d3d3d3;
 }
 
 .top {
