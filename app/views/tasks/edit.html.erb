@@ -1,12 +1,11 @@
-<h1>Edit a task</h1>
-<%= form_for(@task) do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-  <%= f.label :details %>
-  <%= f.text_field :details %>
-  <%= f.check_box :completed %>
-  <%= f.label :completed %>
-  <%= f.submit %>
-<% end %>
-
-<%= link_to '<i class="fas fa-undo-alt"></i> Back to list'.html_safe, tasks_path %>
+<div class="container p-3">
+  <h1>Edit a task</h1>
+  <%= simple_form_for(@task) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :details %>
+    <%= f.check_box :completed %>
+    <%= f.label :completed %>
+    <%= f.submit "Add task", :class => "btn btn-primary" %>
+  <% end %>
+  <%= link_to '<i class="fas fa-undo-alt"></i> Back to list'.html_safe, tasks_path %>
+</div>

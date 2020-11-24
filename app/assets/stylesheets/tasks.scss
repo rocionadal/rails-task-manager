@@ -1,10 +1,9 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 8px 32px;
-  width: 50%;
 }
 
 li {
@@ -43,24 +42,8 @@ a:hover {
   align-items: center;
 }
 
-.edit_task {
-  display: table-caption;
-
-
-}
-.edit_task input {
-  margin: 8px 0;
-  padding: 8px 36px;
-  text-align: left;
-
- }
-
-.edit_task label {
-  font-weight: 600;
- }
-
 .fa-undo-alt {
-  margin-top: 36px;
+  margin-top: 24px;
 }
 
 
