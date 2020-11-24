@@ -4,5 +4,9 @@
   <%= f.text_field :title %>
   <%= f.label :details %>
   <%= f.text_field :details %>
+  <%= f.check_box :completed %>
+  <%= f.label :completed %>
   <%= f.submit %>
 <% end %>
+
+<%= link_to '<i class="fas fa-undo-alt"></i> Back to list'.html_safe, tasks_path %>
